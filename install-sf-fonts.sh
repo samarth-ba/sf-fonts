@@ -30,7 +30,3 @@ sudo cp Serif-UI-Display-* /usr/share/fonts/sf-serif/display
 cd ../.. || exit
 
 rm -rf San-Francisco-family/
-
-cd .. || exit
-
-rm -rf sf-fonts/
