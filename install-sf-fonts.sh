@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 
 if [ "$(id -u)" == 0 ]; then
-  echo -e "\n"
-  echo "do not run as root! you will be asked for sudo password when needed."
-  echo -e "\n"
+  echo
+  echo "ERROR: Running as root is not allowed!"
+  echo
   exit
 fi
 
